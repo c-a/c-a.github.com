@@ -100,11 +100,17 @@ div#container {
 text-align:left
 }
 
+
 div.subcontent {
 padding-left:1em;
 }
 
-div#content p, div#extra p, div#sidebar p {
+div.subcontent ul {
+padding-left:1em;
+margin-left:0em;
+}
+
+div#content p, div#content li, div#extra p, div#sidebar p {
 font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
 font-size: 11px;
 color: #444;
@@ -178,13 +184,3 @@ border-bottom: 1px solid #333;
 border-right: 1px solid #333;
 }
 
-/*
-
- Would be nice if you could keep this credit below. Thanks.
-
-*/
-
-#design-by {
-float: right;
-display:inline;
-}
