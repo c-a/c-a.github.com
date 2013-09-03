@@ -110,6 +110,10 @@ padding-left:1em;
 margin-left:0em;
 }
 
+div.subcontent li {
+margin-top: 1em;
+}
+
 div#content p, div#content li, div#extra p, div#sidebar p {
 font-family: "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
 font-size: 11px;
